@@ -15,6 +15,8 @@
 		1715578A1FC16E4A004D1129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 171557891FC16E4A004D1129 /* main.m */; };
 		171557941FC16E4B004D1129 /* CopyStrongStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171557931FC16E4B004D1129 /* CopyStrongStringTests.m */; };
 		1715579F1FC16E4B004D1129 /* CopyStrongStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1715579E1FC16E4B004D1129 /* CopyStrongStringUITests.m */; };
+		17D755B72053F27900A6E48D /* XItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D755B62053F27900A6E48D /* XItem.m */; };
+		17D755BA20540D6600A6E48D /* NSObject+XKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D755B920540D6600A6E48D /* NSObject+XKVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1715579A1FC16E4B004D1129 /* CopyStrongStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyStrongStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1715579E1FC16E4B004D1129 /* CopyStrongStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyStrongStringUITests.m; sourceTree = "<group>"; };
 		171557A01FC16E4B004D1129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D755B52053F27900A6E48D /* XItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XItem.h; sourceTree = "<group>"; };
+		17D755B62053F27900A6E48D /* XItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XItem.m; sourceTree = "<group>"; };
+		17D755B820540D6600A6E48D /* NSObject+XKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+XKVC.h"; sourceTree = "<group>"; };
+		17D755B920540D6600A6E48D /* NSObject+XKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XKVC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1715577B1FC16E4A004D1129 /* AppDelegate.m */,
 				1715577D1FC16E4A004D1129 /* ViewController.h */,
 				1715577E1FC16E4A004D1129 /* ViewController.m */,
+				17D755B52053F27900A6E48D /* XItem.h */,
+				17D755B62053F27900A6E48D /* XItem.m */,
+				17D755B820540D6600A6E48D /* NSObject+XKVC.h */,
+				17D755B920540D6600A6E48D /* NSObject+XKVC.m */,
 				171557801FC16E4A004D1129 /* Main.storyboard */,
 				171557831FC16E4A004D1129 /* Assets.xcassets */,
 				171557851FC16E4A004D1129 /* LaunchScreen.storyboard */,
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1715577F1FC16E4A004D1129 /* ViewController.m in Sources */,
+				17D755BA20540D6600A6E48D /* NSObject+XKVC.m in Sources */,
+				17D755B72053F27900A6E48D /* XItem.m in Sources */,
 				1715578A1FC16E4A004D1129 /* main.m in Sources */,
 				1715577C1FC16E4A004D1129 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83K94B99YT;
 				INFOPLIST_FILE = CopyStrongString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTech.CopyStrongString;
@@ -444,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83K94B99YT;
 				INFOPLIST_FILE = CopyStrongString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XTech.CopyStrongString;
